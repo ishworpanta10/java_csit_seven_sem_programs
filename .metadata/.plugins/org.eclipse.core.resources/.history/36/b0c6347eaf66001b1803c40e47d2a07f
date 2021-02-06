@@ -1,0 +1,17 @@
+package simple_programs;
+
+public class AreaAndPerimeterRect {
+	double length, breadth ;
+	
+	public AreaAndPerimeterRect() {
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

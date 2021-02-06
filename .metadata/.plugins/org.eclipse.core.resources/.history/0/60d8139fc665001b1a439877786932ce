@@ -1,0 +1,10 @@
+import java.rmi.RemoteException;
+
+public class RMIServer {
+	public static void main(String [] args) {
+		try {}
+		catch(RemoteException re) {
+			System.out.println(re);
+		}
+	}
+}

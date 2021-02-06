@@ -1,0 +1,16 @@
+package swing_demo;
+
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class JavaSumKeyAdapterDemo {
+	
+	JLabel l1,l2,l3;
+	JTextField t1,t2,t3;
+
+	public static void main(String[] args) {
+	new JavaSumKeyAdapterDemo();
+
+	}
+
+}

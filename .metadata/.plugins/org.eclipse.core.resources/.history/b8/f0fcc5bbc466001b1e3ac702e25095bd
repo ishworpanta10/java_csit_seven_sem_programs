@@ -1,0 +1,17 @@
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/simple_interest")
+
+public class SimpleInterest extends HttpServlet {
+	
+	public void doGet(HttpServletRequest req, HttpServletResponse res) {
+		float = Float.parseFloat(req.getSt)
+	}
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;simple_programs.HelloWorld&apos; to &apos;ReadAndWriteFileContent&apos;&#x0A;- Original project: &apos;JAVA_SIMPLE_PROGRAMS&apos;&#x0A;- Original element: &apos;simple_programs.HelloWorld&apos;&#x0A;- Renamed element: &apos;simple_programs.ReadAndWriteFileContent&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HelloWorld&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;simple_programs{HelloWorld.java[HelloWorld" matchStrategy="1" name="ReadAndWriteFileContent" qualified="false" references="true" similarDeclarations="false" stamp="1612404237085" textual="false" version="1.0"/>
+</session>

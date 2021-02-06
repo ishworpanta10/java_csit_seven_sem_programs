@@ -1,0 +1,47 @@
+package simple_programs;
+
+import java.util.Scanner;
+
+public class AreaAndPerimeterRect {
+	final double PI = 3.14;
+	
+	public AreaAndPerimeterRect() {	}
+	
+	public double areaRect(double length,double breadth) {
+		return length * breadth;
+	}
+	
+	public double perimeterRect(double length ,double breadth) {
+		return 2*(length+breadth);
+	}
+	
+	public double areaCircle(double radius) {
+		return 2*PI*radius;
+	}
+	
+	
+
+	public static void main(String[] args) {
+		double rectLength;
+		double rectBreath;
+		double circleRadius ;
+		AreaAndPerimeterRect areaAndPerimeterRect = new AreaAndPerimeterRect();
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter length of Rect");
+		 rectLength = scanner.nextDouble();
+		
+		System.out.println("Enter breadth of Rect");
+		
+		
+		double rectArea = areaAndPerimeterRect.areaRect(5, 7);
+		double rectPerimeter = areaAndPerimeterRect.perimeterRect(5, 7);
+		double circArea = areaAndPerimeterRect.areaCircle(5);
+		
+		System.out.println("Area of Rect is :"+rectArea );
+		System.out.println("Perimeter of Rect is :"+rectPerimeter );
+		System.out.println("Area of Circle is :"+circArea );
+
+	}
+
+}

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple Interest Form</title>
+</head>
+<body>
+<h2> Enter detail here</h2>
+<form>
+	<h3>
+		Principle : <input type="text" name="principle" required="required"> <br/>
+		Time : <input type="text" name="time" required="required"><br/>
+		Rate : <input type="text" name="rate" required="required"><br/><br/>
+		
+		<input type="submit" value="Submit">
+	</h3>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+package simple_programs;
+
+import java.io.FileReader;
+
+public class ReadFileData {
+	
+	public static void main(String[] args) {
+		try {
+			FileReader reader = new FileReader('/home/ishwor/Documents/Java Text/read.txt');
+			
+		}
+	}
+
+}

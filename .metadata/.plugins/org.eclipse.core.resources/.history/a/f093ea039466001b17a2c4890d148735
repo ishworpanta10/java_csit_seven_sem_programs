@@ -1,0 +1,10 @@
+package simple_programs;
+
+public class WriteFileData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

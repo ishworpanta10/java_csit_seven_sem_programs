@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/home/ishwor/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+781238760.index
+2071869570.index
+3728739058.index
+4266008541.index
+3797036824.index
+3390600674.index
+3926951673.index
+1635831521.index
+109956071.index

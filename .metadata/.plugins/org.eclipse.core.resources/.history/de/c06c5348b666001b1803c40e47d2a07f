@@ -1,0 +1,11 @@
+
+public class StudentBean {
+	int id;
+	String name;
+	int rollNo;
+	
+	int get id {
+		return id;
+	}
+	
+}

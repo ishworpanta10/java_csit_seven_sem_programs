@@ -1,0 +1,38 @@
+package simple_programs;
+
+public class AreaAndPerimeterRect {
+//	double length, breadth ;
+	final double PI = 3.14;
+	
+	public AreaAndPerimeterRect() {
+//		this.length = len;
+//		this.breadth = bre;
+	}
+	
+	public double areaRect(double length,double breadth) {
+		return length * breadth;
+	}
+	
+	public double perimeterRect(double length ,double breadth) {
+		return 2*(length+breadth);
+	}
+	
+	public double areaCircle(double radius) {
+		return 2*PI*radius;
+	}
+	
+	
+
+	public static void main(String[] args) {
+		AreaAndPerimeterRect areaAndPerimeterRect = new AreaAndPerimeterRect();
+		double rectArea = areaAndPerimeterRect.areaRect(5, 7);
+		double rectPerimeter = areaAndPerimeterRect.perimeterRect(5, 7);
+		double circArea = areaAndPerimeterRect.areaCircle(5);
+		
+		System.out.println("Area of Rect is :"+rectArea );
+		System.out.println("Perimeter of Rect is :"+rectPerimeter );
+		System.out.println("Area of Circle is :"+circArea );
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package simple_programs;
+
+public class ReadAndWriteFileContent {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+
+	}
+
+}
