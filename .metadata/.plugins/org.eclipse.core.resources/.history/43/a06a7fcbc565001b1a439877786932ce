@@ -1,5 +1,0 @@
-import java.rmi.server.UnicastRemoteObject;
-
-public class RemImplementation extends UnicastRemoteObject  implements Rem{
-
-}

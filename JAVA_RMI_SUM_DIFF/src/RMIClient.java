@@ -16,7 +16,7 @@ public class RMIClient {
 		int b = scanner.nextInt();
 		
 		try {
-			Rem rem_obj = (Rem)Naming.lookup("ADDSUB");
+			Rem rem_obj = (Rem)Naming.lookup("localhost://8080/AddSub");
 			System.out.println("Sum = " + rem_obj.sumNum(a, b));
 			System.out.println("Difference = " + rem_obj.diffNum(a, b));
 			System.out.println("Completed RMI Program");

@@ -32,3 +32,31 @@ Feb 04, 2021 14:36:45.597 Opening in existing browser session.
 Feb 04, 2021 14:38:02.192 Opening in existing browser session.
 Feb 04, 2021 14:41:09.800 Opening in existing browser session.
 Feb 04, 2021 14:50:19.90 Opening in existing browser session.
+
+Feb 15, 2021 18:57:05.73 NEW SESSION
+Feb 15, 2021 18:57:05.73 Gtk-Message: 18:57:05.070: Failed to load module "appmenu-gtk-module"
+Feb 15, 2021 18:57:05.246 Opening in existing browser session.
+
+Feb 17, 2021 05:26:22.786 NEW SESSION
+Feb 17, 2021 05:26:22.787 Gtk-Message: 05:26:22.785: Failed to load module "appmenu-gtk-module"
+Feb 17, 2021 05:26:22.837 Opening in existing browser session.
+
+Feb 19, 2021 18:38:00.784 NEW SESSION
+Feb 19, 2021 18:38:00.784 Gtk-Message: 18:38:00.783: Failed to load module "appmenu-gtk-module"
+Feb 19, 2021 18:38:00.942 Opening in existing browser session.
+Feb 19, 2021 18:55:11.739 Gtk-Message: 18:55:11.739: Failed to load module "appmenu-gtk-module"
+Feb 19, 2021 18:55:11.802 Opening in existing browser session.
+Feb 19, 2021 18:55:43.542 Gtk-Message: 18:55:43.541: Failed to load module "appmenu-gtk-module"
+Feb 19, 2021 18:55:43.597 Opening in existing browser session.
+
+Feb 20, 2021 21:59:06.648 NEW SESSION
+Feb 20, 2021 21:59:06.648 Gtk-Message: 21:59:06.647: Failed to load module "appmenu-gtk-module"
+Feb 20, 2021 21:59:06.836 [25333:25333:0220/215906.835889:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+Feb 20, 2021 22:03:13.637 Gtk-Message: 22:03:13.637: Failed to load module "appmenu-gtk-module"
+Feb 20, 2021 22:03:13.732 Opening in existing browser session.
+Feb 20, 2021 22:03:33.242 Gtk-Message: 22:03:33.242: Failed to load module "appmenu-gtk-module"
+Feb 20, 2021 22:03:33.368 Opening in existing browser session.
+Feb 20, 2021 22:05:04.538 Gtk-Message: 22:05:04.538: Failed to load module "appmenu-gtk-module"
+Feb 20, 2021 22:05:04.711 Opening in existing browser session.
+Feb 20, 2021 22:09:01.262 Gtk-Message: 22:09:01.261: Failed to load module "appmenu-gtk-module"
+Feb 20, 2021 22:09:01.425 Opening in existing browser session.

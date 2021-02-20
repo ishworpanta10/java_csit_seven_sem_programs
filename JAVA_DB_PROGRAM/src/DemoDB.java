@@ -1,5 +1,6 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -29,6 +30,26 @@ public class DemoDB {
 		}
 		return conn;
 
+	}
+	
+//	insert using prepared statement
+	public void insertPrep()  {
+		Connection conn = setConnection();
+		if(conn !=null) {
+			String sql = "INSERT INTO EmployeeTable(id, name, salary,address) values(?,?,?,?)";
+			try {
+				java.sql.PreparedStatement stat = conn.prepareStatement(sql);
+				stat.setInt(1, 5);
+				stat.setString(2, "Lionel");
+				stat.setDouble(3, 49000);
+				stat.setString(4, "Kathmandu");
+				int i = stat.executeUpdate();
+				System.out.println( i + " Record inserted using prepared statement");
+				conn.close();
+			}catch(SQLException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 //	insert
@@ -117,6 +138,7 @@ public class DemoDB {
 //		demoDb.update();
 //		demoDb.delete();
 		demoDb.display();
+//		demoDb.insertPrep();
 
 	}
 

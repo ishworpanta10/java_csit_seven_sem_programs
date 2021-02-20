@@ -7,3 +7,5 @@ INDEX VERSION 1.131
 /JAVA_SERVLET_SIMPLE_INTEREST/src
 /home/ishwor/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2954819481.index
 /JSP_PROGRAMS/src
+/home/ishwor/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3528665605.index
+/JSP_USER_PSSWD_CHECK/src

@@ -11,4 +11,8 @@
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
+	<section name="RefactoringWizard.Extract Superclass">
+		<item key="width" value="820"/>
+		<item key="height" value="625"/>
+	</section>
 </section>

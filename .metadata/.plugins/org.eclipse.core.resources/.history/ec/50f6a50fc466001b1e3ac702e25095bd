@@ -1,7 +1,0 @@
-import javax.servlet.http.HttpServlet;
-
-public class SimpleInterest extends HttpServlet {
-	public static void main(String[] args) {
-		
-	}
-}

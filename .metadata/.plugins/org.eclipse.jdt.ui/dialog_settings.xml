@@ -4,6 +4,8 @@
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-15"/>
 	<item key="UserLibraryLoadSaveDialog.size" value="720,680"/>
 	<section name="completion_proposal_size">
+		<item key="contextSelector.size.x" value="313"/>
+		<item key="contextSelector.size.y" value="253"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -90,5 +92,7 @@
 		<item key="DIALOG_WIDTH" value="826"/>
 		<item key="DIALOG_HEIGHT" value="876"/>
 		<item key="DIALOG_FONT_NAME" value="1|Sans|12.0|0|GTK|1|"/>
+	</section>
+	<section name="RenameInformationPopup">
 	</section>
 </section>
