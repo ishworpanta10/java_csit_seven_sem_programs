@@ -1,3 +1,5 @@
+//Step 2
+
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -9,6 +11,6 @@ public class RemImplementation extends UnicastRemoteObject implements Rem {
 	}
 	
 	public int diffNum(int a, int b) {
-		return (a-b);
+		return (a-b);	
 	}
 }

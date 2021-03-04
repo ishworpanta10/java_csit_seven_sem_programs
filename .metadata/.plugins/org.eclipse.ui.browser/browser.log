@@ -60,3 +60,11 @@ Feb 20, 2021 22:05:04.538 Gtk-Message: 22:05:04.538: Failed to load module "appm
 Feb 20, 2021 22:05:04.711 Opening in existing browser session.
 Feb 20, 2021 22:09:01.262 Gtk-Message: 22:09:01.261: Failed to load module "appmenu-gtk-module"
 Feb 20, 2021 22:09:01.425 Opening in existing browser session.
+
+Mar 04, 2021 13:11:38.287 NEW SESSION
+Mar 04, 2021 13:11:38.287 Gtk-Message: 13:11:38.286: Failed to load module "appmenu-gtk-module"
+Mar 04, 2021 13:11:38.536 [7368:7368:0304/131138.536546:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 04, 2021 13:19:47.144 Gtk-Message: 13:19:47.144: Failed to load module "appmenu-gtk-module"
+Mar 04, 2021 13:19:47.196 Opening in existing browser session.
+Mar 04, 2021 13:34:01.158 Gtk-Message: 13:34:01.158: Failed to load module "appmenu-gtk-module"
+Mar 04, 2021 13:34:01.210 Opening in existing browser session.

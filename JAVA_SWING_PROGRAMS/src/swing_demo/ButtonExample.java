@@ -11,7 +11,6 @@ public class ButtonExample {
 		JButton b = new JButton("Click Here");
 		b.setBounds(160, 80, 120, 20);
 		b.addActionListener(new ActionListener() {
-
 			public void actionPerformed(ActionEvent e) {
 				tf.setText("Welcome to Javatpoint.");
 			}

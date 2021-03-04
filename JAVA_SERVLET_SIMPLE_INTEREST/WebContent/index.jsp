@@ -38,7 +38,7 @@
 </head>
 <body>
 	<h2>Enter detail here</h2>
-	<form name="myForm" action="simple_interest" onsubmit="return validateForm()">
+	<form name="myForm" method="GET" action="simple_interest" onsubmit="return validateForm()">
 		<h3>
 			Principle : <input type="text" name="principle" required="required">
 			<br /> Time : <input type="text" name="time" required="required"><br />

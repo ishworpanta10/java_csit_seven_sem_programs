@@ -14,6 +14,7 @@ class ClientArea {
 		ps = new PrintStream(s.getOutputStream());
 //		sending radius to server
 		ps.println(br.readLine());
+		
 //		receive area from server
 		br = new BufferedReader(new InputStreamReader(s.getInputStream()));
 		str = br.readLine();

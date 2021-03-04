@@ -18,10 +18,10 @@ public class Client {
 		out.println("Hello Server From Client");
 	
 		
-		BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-		String message = in.readLine();
-		System.out.println("Message from Server :" + message);
-		
+//		BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+//		String message = in.readLine();
+//		System.out.println("Message from Server :" + message);
+//		
 //		3. Closing conn and out
 		out.close();
 		conn.close();

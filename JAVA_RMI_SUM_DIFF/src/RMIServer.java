@@ -6,7 +6,7 @@ public class RMIServer {
 	public static void main(String[] args) {
 		try {
 			RemImplementation local_obj = new RemImplementation();
-			Naming.rebind("localhost://8080/AddSub", local_obj);
+			Naming.rebind("localhost", local_obj);
 			System.out.println("RMI Server Started");
 		} catch (RemoteException re) {
 			System.out.println(re);
