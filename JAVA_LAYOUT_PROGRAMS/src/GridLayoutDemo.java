@@ -32,6 +32,7 @@ public class GridLayoutDemo {
 
 		f.setSize(300, 300);
 		f.setVisible(true);
+		f.setLocationRelativeTo(null);
 	}
 
 	public static void main(String[] args) {

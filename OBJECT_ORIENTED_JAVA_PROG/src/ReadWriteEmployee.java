@@ -2,6 +2,11 @@ import java.io.RandomAccessFile;
 import java.util.Scanner;
 
 public class ReadWriteEmployee {
+	
+	private int id;
+	private String name;
+	private double salary;
+	
 	public int getId() {
 		return id;
 	}
@@ -26,14 +31,11 @@ public class ReadWriteEmployee {
 		this.salary = salary;
 	}
 
-	private int id;
-	private String name;
-	private double salary;
+	
 
 	public static void main(String[] args) {
-		final int size = 3;
+		final int size = 20;
 		ReadWriteEmployee e[] = new ReadWriteEmployee[size];
-
 		Scanner sc = new Scanner(System.in);
 
 		int id;
@@ -44,13 +46,13 @@ public class ReadWriteEmployee {
 
 		for (int i = 0; i < size; i++) {
 			e[i] = new ReadWriteEmployee();
-			System.out.println("Enter Id of employee" + (i + 1) + ":");
+			System.out.println("Enter Id of employee " + (i + 1) + ":");
 			id = sc.nextInt();
 
-			System.out.println("Enter name of employee" + (i + 1) + ":");
+			System.out.println("Enter name of employee " + (i + 1) + ":");
 			name = sc.next();
 
-			System.out.println("Enter salary of employee" + (i + 1) + ":");
+			System.out.println("Enter salary of employee"  + (i + 1) + ":");
 			salary = sc.nextDouble();
 
 			e[i].setId(id);

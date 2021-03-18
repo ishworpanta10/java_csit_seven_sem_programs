@@ -110,7 +110,7 @@ class Rectangle1 extends Shape1{
 
 //with interface 
 interface Shape2{
-	double area();
+	 double area();
 }
 
 class Rectangle2 implements Shape2{

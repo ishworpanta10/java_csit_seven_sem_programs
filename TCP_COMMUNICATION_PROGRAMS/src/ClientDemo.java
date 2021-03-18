@@ -18,7 +18,7 @@ class ClientDemo {
 			System.out.println("Message From Server:"+ str2);
 	
 		}
-
+		din.close();
 		dout.close();
 		s.close();
 	}

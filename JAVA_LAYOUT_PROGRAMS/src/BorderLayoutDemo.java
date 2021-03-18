@@ -22,8 +22,8 @@ public class BorderLayoutDemo extends JFrame {
 		setLayout(new BorderLayout());
 		JButton topButton = new JButton("PAGE_START/NORTH");
 		JButton bottomButton = new JButton("PAGE_END/SOUTH");
-		JButton leftButton = new JButton("LINE_START/EAST");
-		JButton rightButton = new JButton("LINE_END/WEST");
+		JButton leftButton = new JButton("LINE_END/WEST");
+		JButton rightButton = new JButton("LINE_START/EAST");
 		JButton centerButton = new JButton("CENTER");
 
 //		add(topButton, BorderLayout.PAGE_START);

@@ -1,6 +1,7 @@
 package swing_demo;
 
 import java.awt.FlowLayout;
+import java.awt.Frame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Arrays;
@@ -19,6 +20,7 @@ public class LoginAccess extends JFrame {
 
 		LoginAccess frame = new LoginAccess();
 		frame.setVisible(true);
+		frame.setTitle("Login Demo");
 		frame.setBounds(500,200, 300,300);
 
 	}
@@ -53,7 +55,7 @@ public class LoginAccess extends JFrame {
 //				System.out.println("act pass :" + String.valueOf(actualPAssword));
 					
 				if(username.equals("admin") && Arrays.equals(actualPAssword, password)) {
-					JOptionPane.showMessageDialog(loginBtn, "Login Successful");
+					JOptionPane.showMessageDialog( loginBtn,"Login Successful");
 					System.out.println("Login Successful");
 				}else {
 					JOptionPane.showMessageDialog(loginBtn, "Login Failed");

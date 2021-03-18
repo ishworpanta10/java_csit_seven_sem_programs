@@ -46,7 +46,7 @@ public class ReadAndWriteFileContent{
 				if(byteData == -1) {
 					break;
 				}
-				System.out.println(byteData );
+				System.out.print((char)byteData );
 				out.write(byteData);
 //				to dublicate each character
 //				out.write(byteData);

@@ -9,7 +9,7 @@
 <body>
 
 	<h2>Welcome to Dashboard</h2>
-
+	<h3>Welcome : ${username}</h3>
 
 </body>
 </html>

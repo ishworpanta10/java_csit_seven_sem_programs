@@ -68,3 +68,105 @@ Mar 04, 2021 13:19:47.144 Gtk-Message: 13:19:47.144: Failed to load module "appm
 Mar 04, 2021 13:19:47.196 Opening in existing browser session.
 Mar 04, 2021 13:34:01.158 Gtk-Message: 13:34:01.158: Failed to load module "appmenu-gtk-module"
 Mar 04, 2021 13:34:01.210 Opening in existing browser session.
+
+Mar 06, 2021 11:53:48.670 NEW SESSION
+Mar 06, 2021 11:53:48.670 Gtk-Message: 11:53:48.670: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 11:53:48.722 Opening in existing browser session.
+Mar 06, 2021 11:55:54.303 Gtk-Message: 11:55:54.303: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 11:55:54.394 Opening in existing browser session.
+Mar 06, 2021 11:56:38.217 Gtk-Message: 11:56:38.216: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 11:56:38.275 Opening in existing browser session.
+Mar 06, 2021 12:05:43.112 Gtk-Message: 12:05:43.111: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 12:05:43.203 Opening in existing browser session.
+Mar 06, 2021 12:14:23.569 Gtk-Message: 12:14:23.569: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 12:14:23.631 Opening in existing browser session.
+Mar 06, 2021 12:17:05.223 Gtk-Message: 12:17:05.223: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 12:17:05.275 Opening in existing browser session.
+Mar 06, 2021 12:18:38.981 Gtk-Message: 12:18:38.981: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 12:18:39.72 Opening in existing browser session.
+Mar 06, 2021 12:20:06.785 Gtk-Message: 12:20:06.785: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 12:20:06.843 Opening in existing browser session.
+
+Mar 06, 2021 12:38:21.247 NEW SESSION
+Mar 06, 2021 12:38:21.247 Gtk-Message: 12:38:21.246: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 12:38:21.341 Opening in existing browser session.
+
+Mar 06, 2021 13:17:25.964 NEW SESSION
+Mar 06, 2021 13:17:25.964 Gtk-Message: 13:17:25.963: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:17:26.12 Opening in existing browser session.
+Mar 06, 2021 13:17:59.300 Gtk-Message: 13:17:59.300: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:17:59.417 Opening in existing browser session.
+Mar 06, 2021 13:18:50.262 Gtk-Message: 13:18:50.261: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:18:50.425 Opening in existing browser session.
+Mar 06, 2021 13:21:17.39 Gtk-Message: 13:21:17.038: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:21:17.194 Opening in existing browser session.
+
+Mar 06, 2021 13:28:59.796 NEW SESSION
+Mar 06, 2021 13:28:59.796 Gtk-Message: 13:28:59.795: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:28:59.853 Opening in existing browser session.
+
+Mar 06, 2021 13:32:34.367 NEW SESSION
+Mar 06, 2021 13:32:34.367 Gtk-Message: 13:32:34.365: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:32:34.539 Opening in existing browser session.
+Mar 06, 2021 13:34:14.561 Gtk-Message: 13:34:14.561: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:34:14.676 Opening in existing browser session.
+Mar 06, 2021 13:35:11.721 Gtk-Message: 13:35:11.721: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:35:11.822 Opening in existing browser session.
+Mar 06, 2021 13:35:43.962 Gtk-Message: 13:35:43.962: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:35:44.107 Opening in existing browser session.
+
+Mar 06, 2021 13:52:08.872 NEW SESSION
+Mar 06, 2021 13:52:08.872 Gtk-Message: 13:52:08.872: Failed to load module "appmenu-gtk-module"
+Mar 06, 2021 13:52:08.931 Opening in existing browser session.
+
+Mar 16, 2021 19:00:18.406 NEW SESSION
+Mar 16, 2021 19:00:18.406 Gtk-Message: 19:00:18.405: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:00:18.509 Opening in existing browser session.
+Mar 16, 2021 19:01:33.922 Gtk-Message: 19:01:33.921: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:01:34.133 Opening in existing browser session.
+Mar 16, 2021 19:02:09.194 Gtk-Message: 19:02:09.193: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:02:09.247 Opening in existing browser session.
+Mar 16, 2021 19:02:58.572 Gtk-Message: 19:02:58.571: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:02:58.652 Opening in existing browser session.
+Mar 16, 2021 19:03:14.408 Gtk-Message: 19:03:14.407: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:03:14.537 Opening in existing browser session.
+Mar 16, 2021 19:03:38.211 Gtk-Message: 19:03:38.210: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:03:38.373 Opening in existing browser session.
+Mar 16, 2021 19:03:54.609 Gtk-Message: 19:03:54.609: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:03:54.767 Opening in existing browser session.
+Mar 16, 2021 19:04:22.955 Gtk-Message: 19:04:22.955: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:04:23.09 Opening in existing browser session.
+Mar 16, 2021 19:05:53.899 Gtk-Message: 19:05:53.899: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:05:54.11 Opening in existing browser session.
+Mar 16, 2021 19:06:35.315 Gtk-Message: 19:06:35.314: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:06:35.526 Opening in existing browser session.
+Mar 16, 2021 19:10:31.60 Gtk-Message: 19:10:31.060: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:10:31.134 Opening in existing browser session.
+Mar 16, 2021 19:11:15.213 Gtk-Message: 19:11:15.212: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 19:11:15.375 Opening in existing browser session.
+Mar 16, 2021 21:34:43.494 Gtk-Message: 21:34:43.494: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:34:43.586 Opening in existing browser session.
+Mar 16, 2021 21:34:58.990 Gtk-Message: 21:34:58.990: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:34:59.49 Opening in existing browser session.
+Mar 16, 2021 21:35:15.196 Gtk-Message: 21:35:15.196: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:35:15.253 Opening in existing browser session.
+Mar 16, 2021 21:39:51.990 Gtk-Message: 21:39:51.990: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:39:52.46 Opening in existing browser session.
+Mar 16, 2021 21:40:11.654 Gtk-Message: 21:40:11.654: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:40:11.707 Opening in existing browser session.
+Mar 16, 2021 21:40:54.619 Gtk-Message: 21:40:54.619: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:40:54.673 Opening in existing browser session.
+Mar 16, 2021 21:41:45.719 Gtk-Message: 21:41:45.719: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:41:45.812 Opening in existing browser session.
+Mar 16, 2021 21:42:11.769 Gtk-Message: 21:42:11.769: Failed to load module "appmenu-gtk-module"
+Mar 16, 2021 21:42:11.860 Opening in existing browser session.
+
+Mar 17, 2021 10:42:19.944 NEW SESSION
+Mar 17, 2021 10:42:19.944 Gtk-Message: 10:42:19.943: Failed to load module "appmenu-gtk-module"
+Mar 17, 2021 10:42:20.40 Opening in existing browser session.
+
+Mar 18, 2021 05:54:58.615 NEW SESSION
+Mar 18, 2021 05:54:58.615 Gtk-Message: 05:54:58.614: Failed to load module "appmenu-gtk-module"
+Mar 18, 2021 05:54:58.670 Opening in existing browser session.
+Mar 18, 2021 06:08:17.272 Gtk-Message: 06:08:17.271: Failed to load module "appmenu-gtk-module"
+Mar 18, 2021 06:08:17.324 Opening in existing browser session.

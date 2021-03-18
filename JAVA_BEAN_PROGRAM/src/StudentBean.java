@@ -1,8 +1,8 @@
 
 public class StudentBean implements java.io.Serializable {
-	int id;
-	String name;
-	int rollNo;
+	private int id;
+	private String name;
+	private int rollNo;
 
 //	getter for id
 	public int getId() {
@@ -29,7 +29,8 @@ public class StudentBean implements java.io.Serializable {
 	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
 	}
-	
-	public StudentBean() {}
+
+	public StudentBean() {
+	}
 
 }

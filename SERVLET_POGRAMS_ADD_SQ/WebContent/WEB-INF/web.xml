@@ -10,9 +10,10 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list> -->
   
-  
+
  <!--For Addition  -->
- <!--  <servlet>
+   <!-- 
+   <servlet>
   	<servlet-name>test</servlet-name>
   	<servlet-class>com.ishworpanta.AddServlet</servlet-class>	
   </servlet>
@@ -20,11 +21,11 @@
   <servlet-mapping>
   	<servlet-name>test</servlet-name>
   	<url-pattern>/add</url-pattern>
-  </servlet-mapping> -->
-  
+  </servlet-mapping> 
+   -->
   <!--For square  -->
-  
-   <!-- <servlet>
+    <!-- 
+   <servlet>
   	<servlet-name>test1</servlet-name>
   	<servlet-class>com.ishworpanta.SquareServlet</servlet-class>	
   </servlet>
@@ -32,6 +33,8 @@
   <servlet-mapping>
   	<servlet-name>test1</servlet-name>
   	<url-pattern>/square</url-pattern>
-  </servlet-mapping> -->
+  </servlet-mapping> 
+  
+   -->
   
 </web-app>

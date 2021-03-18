@@ -32,7 +32,7 @@ public class GroupLayoutDemo extends JFrame {
 		
 		l.setHorizontalGroup(l.createSequentialGroup().addComponent(b1).
 				addComponent(b2).addComponent(b3).addComponent(b4));
-		
+//		
 		l.setVerticalGroup(l.createParallelGroup().addComponent(b1).addComponent(b2).
 				addComponent(b3).addComponent(b4));
 		

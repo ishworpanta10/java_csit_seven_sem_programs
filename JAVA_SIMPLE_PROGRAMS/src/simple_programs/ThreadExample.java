@@ -23,9 +23,6 @@ public class Main implements Runnable {
   }
 }*/
 
-
-
-
 /*Write a program to create two threads. The first thread should print numbers from 1 to 10
   at intervals of 0.5 second and the second thread should print numbers from 11 to 20 at the
  interval of 1 second.*/
@@ -36,7 +33,7 @@ class ThreadA extends Thread {
 	@Override
 	public void run() {
 		System.out.println("Thread A Runnning");
-		for (int i = 0; i < 10; i++) {
+		for (int i = 1; i < 11; i++) {
 
 			System.out.println(i + "");
 		}
@@ -53,7 +50,7 @@ class ThreadB extends Thread {
 	@Override
 	public void run() {
 		System.out.println("Thread B Runnning");
-		for (int i = 10; i < 20; i++) {
+		for (int i = 11; i < 21; i++) {
 
 			System.out.println(i + "");
 		}
@@ -70,16 +67,19 @@ public class ThreadExample {
 	public static void main(String[] args) {
 		ThreadA t1 = new ThreadA();
 		ThreadB t2 = new ThreadB();
-		
 		t1.run();
 		t2.run();
-		
+
 //		using priority
 //		t1.setPriority(Thread.MAX_PRIORITY);
-//		t2.setPriority(Thread.NORM_PRIORITY);
+//		t2.setPriority(Thread.MIN_PRIORITY);
 //		t1.start();
 //		t2.start();
-		
+//
+//		System.out.println("T1 Priority :" + t1.getPriority());
+//
+//		System.out.println("T2 Priority :" + t2.getPriority());
+
 	}
 
 }

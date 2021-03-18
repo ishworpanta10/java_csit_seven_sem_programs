@@ -18,7 +18,6 @@ try{
 ArithmeticException*/
 
 
-
 //Simple try catch exmaple
 
 /*
@@ -41,7 +40,7 @@ package simple_programs;
 import java.util.Scanner;
 
 class InvalidRadiusException extends Exception {
-	public String message;
+//	public String message;
 
 	public InvalidRadiusException(String message) {
 		super(message);

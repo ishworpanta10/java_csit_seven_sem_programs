@@ -11,6 +11,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="* public class TryCatchDemo {"/>
 			<item value="e"/>
 		</list>
 		<list key="replacehistory">

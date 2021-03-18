@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+//import java.util.Scanner;
 
 public class WriteFileData {
 
@@ -13,6 +14,10 @@ public class WriteFileData {
 		OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileOutputStream, "UTF-16");
 		BufferedWriter bw = new BufferedWriter(outputStreamWriter);
 		
+//		System.out.println("Write Some data:");
+//		Scanner in = new Scanner(System.in);
+//		String data = in.nextLine();
+//		bw.write(data);
 		bw.write("This is writtem with buffere writer");
 		bw.newLine();
 		bw.write("This is new Line");

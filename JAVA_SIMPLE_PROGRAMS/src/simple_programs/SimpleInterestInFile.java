@@ -19,7 +19,7 @@ public class SimpleInterestInFile {
 			float r = in.nextFloat();
 			float result = (p*t*r)/100;
 			
-			out.printf("%s %.2f %.2f %.2f %.2f %n", name, p, t, r, result);
+			out.printf("%s %.2f %.2f %.2f %.2f \n", name, p, t, r, result);
 			
 		}
 		System.out.println("Successfully calculated interest and saved in dest.txt file");

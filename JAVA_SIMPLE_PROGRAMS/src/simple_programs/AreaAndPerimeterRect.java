@@ -16,7 +16,7 @@ public class AreaAndPerimeterRect {
 	}
 	
 	public double areaCircle(double radius) {
-		return 2*PI*radius;
+		return PI*radius*radius;
 	}
 	
 	

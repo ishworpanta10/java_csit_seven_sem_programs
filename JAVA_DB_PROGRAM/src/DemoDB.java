@@ -1,9 +1,4 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class DemoDB {
 
@@ -20,22 +15,22 @@ public class DemoDB {
 				System.out.println("SQL DB Connected");
 			} catch (SQLException e) {
 				System.out.println("SQL Connection Error");
-				e.printStackTrace();
+//				e.printStackTrace();
 			}
 
 		} catch (ClassNotFoundException e) {
 			System.out.println("Class Not Found Exceprion");
-			e.printStackTrace();
+//			e.printStackTrace();
 
 		}
 		return conn;
 
 	}
-	
+
 //	insert using prepared statement
-	public void insertPrep()  {
+	public void insertPrep() throws Exception {
 		Connection conn = setConnection();
-		if(conn !=null) {
+		if (conn != null) {
 			String sql = "INSERT INTO EmployeeTable(id, name, salary,address) values(?,?,?,?)";
 			try {
 				java.sql.PreparedStatement stat = conn.prepareStatement(sql);
@@ -44,9 +39,9 @@ public class DemoDB {
 				stat.setDouble(3, 49000);
 				stat.setString(4, "Kathmandu");
 				int i = stat.executeUpdate();
-				System.out.println( i + " Record inserted using prepared statement");
+				System.out.println(i + " Record inserted using prepared statement");
 				conn.close();
-			}catch(SQLException e) {
+			} catch (SQLException e) {
 				e.printStackTrace();
 			}
 		}
@@ -109,20 +104,32 @@ public class DemoDB {
 			try {
 				Statement statement = conn.createStatement();
 				ResultSet resultSet = statement.executeQuery("SELECT * FROM EmployeeTable");
-				System.out.println("Data From DB");
+
+				ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
+				int colCount = resultSetMetaData.getColumnCount();
+				System.out.println("Database Table");
+				for (int i = 1; i <= colCount; i++)
+					System.out.printf("%-8s\t", resultSetMetaData.getColumnName(i));
+				System.out.println();
+
 				while (resultSet.next()) {
-//					Fetching data by column index for row 
-					String data = resultSet.getString(1);
-					System.out
-							.println("Getting data with col index in DB for Name for Row " + resultSet.getRow() + " : " + data);
-//					Fetching data by column name for row 
-					 data = resultSet.getString("name");
-					  System.out.println("Getting data with col name in DB for name for Row " + resultSet.getRow() + " : " + data);
-					  
-					  data = resultSet.getString("salary");
-					  System.out.println("Getting data with col name in DB for salary for Row " +resultSet.getRow()+" : " + data);
+
+					for (int i = 1; i <= colCount; i++)
+						System.out.printf("%-8s\t", resultSet.getObject(i));
+					System.out.println();
+////					Fetching data by column index for row 
+//					String data = resultSet.getString(1);
+//					System.out
+//							.println("Getting data with col index in DB for Name for Row " + resultSet.getRow() + " : " + data);
+////					Fetching data by column name for row 
+//					 data = resultSet.getString("name");
+//					  System.out.println("Getting data with col name in DB for name for Row " + resultSet.getRow() + " : " + data);
+//					  
+//					  data = resultSet.getString("salary");
+//					  System.out.println("Getting data with col name in DB for salary for Row " +resultSet.getRow()+" : " + data);
+
 				}
-			
+
 			} catch (SQLException e) {
 
 				e.printStackTrace();

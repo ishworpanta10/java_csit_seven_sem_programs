@@ -1,12 +1,13 @@
 package swing_demo;
 
+import java.awt.FlowLayout;
 import java.awt.event.*;
 import javax.swing.*;
 
 public class ButtonExample {
 	public static void main(String[] args) {
 		JFrame f = new JFrame("Button Example");
-		final JTextField tf = new JTextField();
+		 JTextField tf = new JTextField();
 		tf.setBounds(150, 50, 150, 20);
 		JButton b = new JButton("Click Here");
 		b.setBounds(160, 80, 120, 20);

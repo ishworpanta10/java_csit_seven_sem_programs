@@ -1,8 +1,4 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class StudentFetchDemo {
 
@@ -40,8 +36,21 @@ public class StudentFetchDemo {
 		String sql = "SELECT * FROM student WHERE district='kathmandu'";
 		ResultSet result = statement.executeQuery(sql);
 		System.out.println("Student from Kathmandu District are :");
+		
+//		ResultSetMetaData metadata = result.getMetaData();
+//		int col = metadata.getColumnCount();
+//		
+//		for(int i =1 ; i <= col ; i++)
+//			System.out.printf("%-8s\t", metadata.getColumnName(i));
+//				System.out.println();
 
+				
 		while (result.next()) {
+//			for(int  i  = 1; i<= col ; i++) 
+//				System.out.printf("%-8s\t", result.getObject(i));
+//				System.out.println();
+			
+			
 //			String data = result.getString(1);
 			String data = result.getString("name");
 			System.out.println(data);
